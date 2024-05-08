@@ -5,7 +5,7 @@ import OpenAI from "openai";
 export default defineEventHandler(async (event) => {
   // Initialize the OpenAI client with your API key
   const openai = new OpenAI({
-    apiKey: "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",
+    apiKey: "k-proj-5ei01zVKxOT08VYa5UpIT3BlbkFJMg0MzRjwQTKrWvplVj5w",
   });
 
   // // Read the previous messages from the request body
